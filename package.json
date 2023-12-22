@@ -6,6 +6,7 @@
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
+    "studio": "npx prisma studio",
     "generate": " npx prisma generate",
     "prismix": "npx prismix && prisma format",
     "push": "npx prisma db push",
