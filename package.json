@@ -8,7 +8,7 @@
   "scripts": {
     "studio": "npx prisma studio",
     "generate": " npx prisma generate",
-    "prismix": "npx prismix && prisma format",
+    "prismix": "npx prismix && prisma format && npx prisma generate",
     "push": "npx prisma db push",
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
